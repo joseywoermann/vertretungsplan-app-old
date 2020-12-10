@@ -1,0 +1,17 @@
+/src/idea
+/src/build
+/src/gradle
+/src/.gradle
+/src/build.gradle
+/src/gradle.properties
+/src/gradlew
+/src/gradlew.bat
+/src/local.properties
+/src/settings.gradle
+/src/app/release
+/src/app/libs
+/src/app/build
+/src/app/build.gradle
+/src/app/proguard-rules.pro
+/src/app/src/test
+/src/app/src/androidTest
