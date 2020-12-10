@@ -2,33 +2,29 @@ package tk.joseywoermann.vertretungsplan;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.Toast;
 
-
-public class MainActivity extends AppCompatActivity {
+public class Page1 extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //int pageNumber = 1;
+        String currentPage = "http://www.kreisgymnasium-halle.de/wp-content/uploads/Service/vertretungsplan/subst_002.htm";
+
+
         // Buttons
         Button decreasePageButton = findViewById(R.id.decreasePageButton);
         Button increasePageButton = findViewById(R.id.increasePageButton);
-        /*
+
         increasePageButton.setOnClickListener(this);
         decreasePageButton.setOnClickListener(this);
-        */
-
-
-        String currentPage = "http://www.kreisgymnasium-halle.de/wp-content/uploads/Service/vertretungsplan/subst_001.htm";
-
-
 
         String page1 = "http://www.kreisgymnasium-halle.de/wp-content/uploads/Service/vertretungsplan/subst_001.htm";
         String page2 = "http://www.kreisgymnasium-halle.de/wp-content/uploads/Service/vertretungsplan/subst_002.htm";
@@ -41,40 +37,18 @@ public class MainActivity extends AppCompatActivity {
         WebView vertretungsplan_wv = (WebView)findViewById(R.id.vertretungsplan_wv);
         vertretungsplan_wv.getSettings().setJavaScriptEnabled(true);
         vertretungsplan_wv.loadUrl(currentPage);
-
-
-
     }
 
-    /*@Override
+    @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.increasePageButton:
                 Toast.makeText(this, "button1", Toast.LENGTH_SHORT).show();
-                Intent page1Intent = new Intent(this, Page1.class);
-                startActivity(page1Intent);
                 break;
 
             case R.id.decreasePageButton:
                 Toast.makeText(this, "button2", Toast.LENGTH_SHORT).show();
                 break;
         }
-    }*/
-
-    /*String[] pages = {"http://www.kreisgymnasium-halle.de/wp-content/uploads/Service/vertretungsplan/subst_001.htm", "http://www.kreisgymnasium-halle.de/wp-content/uploads/Service/vertretungsplan/subst_002.htm"};
-    int currentPage = 1;
-    WebView vertretungsplan_wv = (WebView)findViewById(R.id.vertretungsplan_wv);
-    public void next(View view) {
-        if (currentPage != pages.length - 1){
-            currentPage++;
-            vertretungsplan_wv.loadUrl(pages[currentPage]);
-        }
     }
-
-    public void previous(View view) {
-        if (currentPage != pages.length - 1){
-            currentPage--;
-            vertretungsplan_wv.loadUrl(pages[currentPage]);
-        }
-    }*/
 }
