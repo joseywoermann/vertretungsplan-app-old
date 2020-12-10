@@ -2,6 +2,7 @@
 /src/build
 /src/gradle
 /src/.gradle
+/src/.idea
 /src/build.gradle
 /src/gradle.properties
 /src/gradlew
