@@ -8,16 +8,17 @@ import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
 
-public class Page2 extends AppCompatActivity {
+public class Page3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page2);
 
+
         // Buttons
-        Button decreasePageButton = findViewById(R.id.decreasePageButton2);
-        Button increasePageButton = findViewById(R.id.increasePageButton2);
+        //Button decreasePageButton = findViewById(R.id.decreasePageButton);
+        //Button increasePageButton = findViewById(R.id.increasePageButton);
         /*
         increasePageButton.setOnClickListener(this);
         decreasePageButton.setOnClickListener(this);
@@ -25,22 +26,17 @@ public class Page2 extends AppCompatActivity {
         //updateWebviewUrl(1);
 
 
-        WebView vertretungsplan_wv2 = (WebView)findViewById(R.id.vertretungsplan_wv2);
-        vertretungsplan_wv2.getSettings().setJavaScriptEnabled(true);
-        vertretungsplan_wv2.loadUrl("http://www.kreisgymnasium-halle.de/wp-content/uploads/Service/vertretungsplan/subst_002.htm");
+        WebView vertretungsplan_wv3 = (WebView)findViewById(R.id.vertretungsplan_wv3);
+        vertretungsplan_wv3.getSettings().setJavaScriptEnabled(true);
+        vertretungsplan_wv3.loadUrl("http://www.kreisgymnasium-halle.de/wp-content/uploads/Service/vertretungsplan/subst_003.htm");
     }
 
+
+
     /** Called when the user taps the Send button */
-    public void nextPage2(View view) {
+    public void nextPage3(View view) {
         // Do something in response to button
         Intent page2 = new Intent(this, Page2.class);
         startActivity(page2);
-    }
-
-    /** Called when the user taps the Send button */
-    public void previousPage2(View view) {
-        // Do something in response to button
-        Intent MainActivity = new Intent(this, MainActivity.class);
-        startActivity(MainActivity);
     }
 }
