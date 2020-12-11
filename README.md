@@ -22,4 +22,4 @@
  * Beim ersten Öffnen der App kann diese Meldung erscheinen: <br> <img src="https://raw.githubusercontent.com/joseywoermann/vertretungsplan-app/master/img/playprotect_upload.jpg" height="300" />
  * Hier einfach auf "Senden" klicken
 
-# Falls noch Fragen oder Probleme entstehen sollten, kannst du mich einfach anschreiben!
+### Falls noch Fragen oder Probleme entstehen sollten, kannst du mich einfach anschreiben!
