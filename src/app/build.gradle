@@ -8,10 +8,10 @@ android {
 
     defaultConfig {
         applicationId "tk.joseywoermann.vertretungsplan"
-        minSdkVersion 26
+        minSdkVersion 24
         targetSdkVersion 29
-        versionCode 8
-        versionName "0.7.0"
+        versionCode 9
+        versionName "0.7.1"
         setProperty("archivesBaseName", "VertretungsplanBETA-$versionName")
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

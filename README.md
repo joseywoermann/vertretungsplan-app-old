@@ -1,1 +1,25 @@
-## vertretungsplan-app
+# Vertretungsplan-App
+### Eine App, die die aktuellen Vertretungspläne des [KGHs](http://www.kreisgymnasium-halle.de/) in einer lesbaren Form anzeigt.
+
+
+# Anforderungen
+
+* _Android_-Gerät (Smartphone, Tablet)
+* Android Version: mindestens 7.0
+
+# Download & Installation
+
+1. App [hier](https://github.com/joseywoermann/vertretungsplan-app/blob/master/apk/stable/Vertretunsplan-App.apk) herunterladen
+2. Die heruntergeladene Datei öffnen
+3. Den Anweisungen auf dem Bildschirm befolgen
+ * Es kann sein, dass folgende Fehlermeldung erscheind:
+  <br> <img src="https://raw.githubusercontent.com/joseywoermann/vertretungsplan-app/master/img/unknown_dev.jpg" height="200" />
+  * Das ist normal, da ich keine Google Play Developer-Lizenz besitze. Die Installation ist trotzdem ungefährlich.
+  * Einfach auf "trotzdem installieren" klicken
+
+4. Die App sollte jetzt automatisch installiert werden.
+5. Die App öffnen
+ * Beim ersten Öffnen der App kann diese Meldung erscheinen: <br> <img src="https://raw.githubusercontent.com/joseywoermann/vertretungsplan-app/master/img/playprotect_upload.jpg" height="200" />
+ * Hier einfach auf "Senden" klicken
+
+# Falls noch Fragen oder Probleme entstehen sollten, kannst du mich einfach anschreiben!
