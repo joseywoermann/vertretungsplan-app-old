@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void previousPage1(View view) {
-        Intent page5 = new Intent(this, Page5.class);
-        startActivity(page5);
+        Intent page6 = new Intent(this, Page6.class);
+        startActivity(page6);
     }
 }

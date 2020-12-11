@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vertretungsplan"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Page5"></activity>
+        <activity android:name=".Page6"></activity>
+        <activity android:name=".Page5" />
         <activity android:name=".Page4" />
         <activity android:name=".Page3" />
         <activity android:name=".Page2" />
