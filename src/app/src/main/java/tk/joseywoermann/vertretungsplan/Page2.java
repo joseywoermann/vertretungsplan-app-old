@@ -33,14 +33,14 @@ public class Page2 extends AppCompatActivity {
     /** Called when the user taps the Send button */
     public void nextPage2(View view) {
         // Do something in response to button
-        Intent page2 = new Intent(this, Page2.class);
-        startActivity(page2);
+        Intent page3 = new Intent(this, Page3.class);
+        startActivity(page3);
     }
 
     /** Called when the user taps the Send button */
     public void previousPage2(View view) {
         // Do something in response to button
-        Intent MainActivity = new Intent(this, MainActivity.class);
-        startActivity(MainActivity);
+        Intent mainactivity = new Intent(this, MainActivity.class);
+        startActivity(mainactivity);
     }
 }

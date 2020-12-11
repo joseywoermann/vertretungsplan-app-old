@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Page4">
 
     <WebView
-        android:id="@+id/vertretungsplan_wv1"
+        android:id="@+id/vertretungsplan_wv4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="55dp"
@@ -17,27 +17,28 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/decreasePageButton1"
+        android:id="@+id/decreasePageButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="previousPage4"
         android:text="zurück"
-        app:layout_constraintBottom_toTopOf="@+id/vertretungsplan_wv1"
+        app:layout_constraintBottom_toTopOf="@+id/vertretungsplan_wv4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/increasePageButton1"
+        android:id="@+id/increasePageButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="70dp"
         android:layout_marginBottom="8dp"
-        android:onClick="nextPage1"
+        android:onClick="nextPage4"
         android:text="weiter"
-        app:layout_constraintBottom_toTopOf="@+id/vertretungsplan_wv1"
+        app:layout_constraintBottom_toTopOf="@+id/vertretungsplan_wv4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
