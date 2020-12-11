@@ -18,28 +18,17 @@ public class Page3 extends AppCompatActivity {
         // Buttons
         Button decreasePageButton = findViewById(R.id.decreasePageButton3);
         Button increasePageButton = findViewById(R.id.increasePageButton3);
-        /*
-        increasePageButton.setOnClickListener(this);
-        decreasePageButton.setOnClickListener(this);
-        */
-        //updateWebviewUrl(1);
 
-
-        WebView vertretungsplan_wv3 = (WebView)findViewById(R.id.vertretungsplan_wv3);
-        vertretungsplan_wv3.getSettings().setJavaScriptEnabled(true);
+        WebView vertretungsplan_wv3 = (WebView) findViewById(R.id.vertretungsplan_wv3);
+        vertretungsplan_wv3.getSettings().setJavaScriptEnabled(false);
         vertretungsplan_wv3.loadUrl("http://www.kreisgymnasium-halle.de/wp-content/uploads/Service/vertretungsplan/subst_003.htm");
     }
-
-    /** Called when the user taps the Send button */
     public void nextPage3(View view) {
-        // Do something in response to button
         Intent page4 = new Intent(this, Page4.class);
         startActivity(page4);
     }
 
-    /** Called when the user taps the Send button */
     public void previousPage3(View view) {
-        // Do something in response to button
         Intent page2 = new Intent(this, Page2.class);
         startActivity(page2);
     }
