@@ -10,9 +10,9 @@
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 6,
-      "versionName": "0.5.0",
-      "outputFile": "VertretungsplanBETA-0.5.0-release.apk"
+      "versionCode": 7,
+      "versionName": "0.6.0",
+      "outputFile": "VertretungsplanBETA-0.6.0-release.apk"
     }
   ]
 }

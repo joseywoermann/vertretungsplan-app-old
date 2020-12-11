@@ -36,6 +36,13 @@ public class MainActivity extends AppCompatActivity {
         Intent page2 = new Intent(this, Page2.class);
         startActivity(page2);
     }
+
+    /** Called when the user taps the Send button */
+    public void previousPage1(View view) {
+        // Do something in response to button
+        Intent page5 = new Intent(this, Page5.class);
+        startActivity(page5);
+    }
 }
 
         /*
