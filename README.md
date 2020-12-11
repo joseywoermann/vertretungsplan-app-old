@@ -18,7 +18,7 @@
   * Einfach auf "trotzdem installieren" klicken
 
 4. Die App sollte jetzt automatisch installiert werden.
-5. Die App öffnen
+5. App öffnen und nutzen
  * Beim ersten Öffnen der App kann diese Meldung erscheinen: <br> <img src="https://raw.githubusercontent.com/joseywoermann/vertretungsplan-app/master/img/playprotect_upload.jpg" height="300" />
  * Hier einfach auf "Senden" klicken
 
