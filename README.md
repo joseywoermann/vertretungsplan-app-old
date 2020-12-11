@@ -9,7 +9,7 @@
 
 # Download & Installation
 
-1. App [hier](https://github.com/joseywoermann/vertretungsplan-app/blob/master/apk/stable/Vertretunsplan-App.apk) herunterladen
+1. App [hier](https://github.com/joseywoermann/vertretungsplan-app/blob/master/apk/stable/Vertretungsplan-App.apk) herunterladen
 2. Die heruntergeladene Datei öffnen
 3. Den Anweisungen auf dem Bildschirm befolgen
  * Es kann sein, dass folgende Fehlermeldung erscheind:
