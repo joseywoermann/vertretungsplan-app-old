@@ -24,5 +24,3 @@
 
 ### Andmerkungen:
  * Wenn eine der Seiten eine "OOPS! THAT PAGE CAN'T BE FOUND." - Meldung anzeigt, bedeutet das, dass es keine weiteren Seiten gibt.
-
-### Falls noch Fragen oder Probleme entstehen sollten, kannst du mich einfach kontaktieren!
