@@ -1,4 +1,7 @@
 # Vertretungsplan-App
+
+[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)](https://forthebadge.com)
+
 ### Eine App, die die aktuellen Vertretungspläne des [KGHs](http://www.kreisgymnasium-halle.de/) in einer an Samrtphones gut lesbaren Form anzeigt.
 
 
