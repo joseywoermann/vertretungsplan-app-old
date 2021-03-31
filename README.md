@@ -1,7 +1,7 @@
 # Vertretungsplan-App
 
 
-### Eine App, die die aktuellen Vertretungspläne des [KGHs](http://www.kreisgymnasium-halle.de/) in einer an Samrtphones gut lesbaren Form anzeigt.
+### Eine App, die die aktuellen Vertretungspläne des [KGHs](http://www.kreisgymnasium-halle.de/) in einer auf Smartphones gut lesbaren Form anzeigt.
 
 
 # Anforderungen
